@@ -8,12 +8,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController()
-@RequestMapping("/myPrice")
+@RequestMapping(value = "/myPrice")
 public class PricingController {
     @Autowired
     PricingService pricingService;
 
-    @PostMapping("/discount")
+    @PostMapping(value = "/discount")
     public ResponseEntity<Double> getMyDiscountedPrice(
             @RequestParam
             CustomerType customerType,
