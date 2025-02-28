@@ -58,10 +58,11 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 			<version>3.4.2</version>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+			<version>3.4.2</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
